@@ -1,0 +1,60 @@
+
+body{
+    background-color: blue;
+    color: white;
+}
+/* nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-items{
+    display: flex;
+    
+}
+.nav-title{
+    font-size: 30px;
+    /* margin-left: 40px; */
+}
+li{
+    text-decoration: none;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 40px;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+/* banner styles */
+.text-primary{
+    background-color: white;
+    color: blue;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+.fa-play{
+    background-color: white;
+    color: blue;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+.banner{
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+.banner img{
+    width: 100%;
+}
+.container{
+max-width: 85%;
+    margin: 0 auto;
+}
